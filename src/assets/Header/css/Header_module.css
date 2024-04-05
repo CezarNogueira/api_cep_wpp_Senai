@@ -1,0 +1,21 @@
+.wrapper__header {
+    width: 100vw;
+    height: 5rem;
+
+    background-color: #f6f6f6;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 280px;
+    height: 2rem;
+
+    color: #202020;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
