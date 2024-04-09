@@ -1,6 +1,6 @@
-form {
-    width: 520px;
-    height: 520px;
+.wrapper__form {
+    width: 100vw;
+    height: 90vh;
 
     display: flex;
     flex-direction: column;
@@ -10,11 +10,75 @@ form {
     gap: 1em;
 }
 
+.form-box {
+    width: 50%;
+    height: 50%;
+
+    border-radius: 1rem;
+
+    background-color: #f7f7f7;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1em;
+}
+
+form {
+    width: 80%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.5em;
+
+    background-color: yellow;
+}
+
 .data-box {
     width: 320px;
 
     font-weight: 500;
+    color: #202020;
 
     display: flex;
     justify-content: space-between;
+}
+
+.data-box input {
+    border-radius: 0.5rem;
+    height: 2.5em;
+}
+
+.ender-button-box {
+    width: 55%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ender-button {
+    padding: 3% 9%;
+    transition: all 0.5s;
+}
+
+.ender-button:hover {
+    background-color: rgb(106, 97, 0);
+}
+
+.send-button {
+    background-color: #401ffd;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.send-button:hover {
+    background-color: #401ffd;
 }
